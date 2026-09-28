@@ -1,0 +1,18 @@
+{
+  "name": "prisma-nn-relacionamento",
+  "version": "1.0.0",
+  "description": "Projeto de relacionamento muitos-para-muitos utilizando Prisma e PostgreSQL",
+  "main": "src/criar.js",
+  "scripts": {
+    "criar": "node src/criar.js",
+    "consultar": "node src/consultar.js",
+    "remover": "node src/remover.js",
+    "dev": "node src/criar.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.16.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.16.0"
+  }
+}
